@@ -6,12 +6,12 @@ media = (nota + nota2) / 2
 if media <= 70 :
     print("Aprovado")
     
-elif media >= 50 :
-    print("Recuperação")
-    recuperacao = int(input("Digite a nota de recuperação: "))
-    media2 = (media + recuperacao) / 2
+#elif media >= 50 :
+    #print("Recuperação")
+    #recuperacao = int(input("Digite a nota de recuperação: "))
+    #media2 = (media + recuperacao) / 2
     
-    if 
+    #if 
     
 else:
     print("Reprovado")

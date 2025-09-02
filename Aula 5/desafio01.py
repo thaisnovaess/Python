@@ -25,5 +25,5 @@ elif idade <= 19 :
 elif idade <= 24 : 
     print("Categoria Sênior. Taxa de Inscrição R$110,00 ")
     
-if idade > 24 : 
+else : 
     print("Categoria Master. Taxa de inscrição: R$ 130,00")

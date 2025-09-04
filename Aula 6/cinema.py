@@ -18,5 +18,13 @@
 
 #Digite a posição do filme escolhido: 2
 #Filme escolhido: Toy Story 4 - R$ 20
+i = 1
+listaFilmes = ["Vingadores: Ultimato", "Toy Story 4", "Rei Leão", "Matrix"]
+listaPreco = [25,20,22,18]
 
-listaFilmes = ["Vingadores"]
+for filme, preco in zip(listaFilmes, listaPreco): 
+    print(f"{i}- {filme} = R$ {preco} ")
+    i= i + 1
+    
+posicao = int(input("Digite a posição do filme que deseja assistir: ")) - 1
+print(f"Filme escolhido:  {listaFilmes[posicao]} - R$ {listaPreco[posicao]}")

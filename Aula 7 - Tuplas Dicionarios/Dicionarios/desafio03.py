@@ -38,5 +38,9 @@ if aluno["Matricula"] != 0:
     aluno["Ano de Ingresso"] = int(input("Digite o ano de ingresso: "))
     aluno["Duracao"] = int(input("Digite a duração do curso em anos: "))
     
-for chave, valor in aluno.itens():
+    previsaoTermino = aluno["Ano de Ingresso"] + aluno["Duracao"]
+    aluno["Previsão de Término"] = previsaoTermino
+    
+print("Cadastro Completo")
+for chave, valor in aluno.items():
    print(f"{chave} - {valor}")
